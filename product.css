@@ -1,0 +1,58 @@
+:root {
+  --primary-color: #2c3e50;
+  --secondary-color: #3498db;
+}
+.navbar {
+  background-color: var(--primary-color);
+}
+.product-image {
+  max-height: 600px;
+  object-fit: cover;
+}
+.carousel-thumbnails {
+  margin-top: 10px;
+}
+.carousel-thumbnails img {
+  max-width: 50px;
+  cursor: pointer;
+  margin: 0 5px;
+  opacity: 0.6;
+  transition: opacity 0.3s;
+}
+
+.carousel-thumbnails img:hover {
+  opacity: 1;
+}
+.product-features {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+}
+.review-rating {
+  color: #ffc107;
+}
+
+.card {
+  transition: transform 0.3s;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+.badge-custom {
+  background-color: var(--secondary-color);
+  color: white;
+}
+.quantity-selector {
+  max-width: 150px;
+}
+
+.related-product img {
+  height: 300px;
+  object-fit: cover;
+}
+
+.sticky-top {
+  top: 20px;
+}
